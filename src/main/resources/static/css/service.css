@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+ .card {
+            margin-bottom: 20px;
+        }
+        .carousel-item img {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .card-title {
+            font-size: 1.25rem;
+        }
+        .card-location {
+            color: #777;
+            font-size: 0.9rem;
+        }
+        .card-contact {
+            color: #4CAF50;
+            font-size: 1rem;
+        }
+        .card-price {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .card-button {
+            background-color: #735aff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .card-button:hover {
+            background-color: #2e10db;
+            color: white;
+            text-decoration: none;
+        }
+        
+        
+        
+      

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="~{base::layout(~{::section})}"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hotel Cards with Slider</title>
+   
+    
+</head>
+<body>
+<section>
+   <div class="container mt-5">
+   <div align="center" class="mb-5 ">
+                    <a href="/cities/service_provider/barberHyderabad" class="btn btn-outline-primary">Barber</a>   
+                    <a href="/cities/service_provider/chefHyderabad" class="btn btn-outline-primary">Chef</a>      
+                    <a href="/cities/service_provider/electricianHyderabad" class="btn btn-outline-primary">Electrician</a>
+                    <a href="/cities/service_provider/cleanerHyderabad" class="btn btn-outline-primary">Cleaner</a>
+                    <a href="/cities/service_provider/painterHyderabad" class="btn btn-outline-primary">Painter</a>
+                    
+                </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/hyderabad_image/plumber/plumber1.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber2.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber3.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">SK Plumbers</h5>
+                        <p class="card-location">1-111/1/B/188 Raghavendra Nagar Colony Road, Hyderabad, Telangana 500084</p>
+<!--                         <p class="card-contact">Contact no: 099595 28490</p>
+ -->                         <h6 >Status<button class="btn btn-success btn-sm ml-3">Available</button></h6>
+ 
+                            <p class="card-price">₹200 onwards</p>
+                        <a href="https://rzp.io/l/hxXaHSK" class="card-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the card structure for Cards 2 to 6 -->
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/hyderabad_image/plumber/plumber4.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber5.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber6.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sri Sai Plumbing Works</h5>
+                        <p class="card-location">6 - 2 - 549/A, Sunnambatti, New Bhoiguda, Hyderabad, Telangana 500003</p>
+<!--                         <p class="card-contact"> Contact no: 098491 03734</p>
+ -->                        <h6 >Status<button class="btn btn-success btn-sm ml-3">Available</button></h6>
+ 
+                            <p class="card-price">₹300 Onwards</p>
+                        <a href="https://rzp.io/l/hxXaHSK" class="card-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/hyderabad_image/plumber/plumber7.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber8.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber9.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bismillah Hyderabad Plumbers</h5>
+                        <p class="card-location">2-3-604/14/A, Patel Nagar, Hyderabad, Telangana 500013   </p>
+<!--                         <p class="card-contact">Contact no: 093940 67802</p>
+ -->                        <h6 >Status<button class="btn btn-success btn-sm ml-3">Available</button></h6>
+                        
+                        <p class="card-price">₹299 onwards</p>
+                        <a href="https://rzp.io/l/hxXaHSK" class="card-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/hyderabad_image/plumber/plumber10.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber11.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber12.jpg" class="d-block w-100" alt=" Plumber image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Plumber - Deepak Enterprises</h5>
+                        <p class="card-location">1-10-125/86/2/b, 2nd Floor. Mayuri Marg Begumpet, Hyderabad, Telangana 500016</p>
+<!--                         <p class="card-contact">Contact no: 083415 98250</p>
+ -->                        <h6 >Status<button class="btn btn-success btn-sm ml-3">Available</button></h6>
+                        
+                        <p class="card-price">₹399 onwards</p>
+                        <a href="https://rzp.io/l/hxXaHSK" class="card-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/hyderabad_image/plumber/plumber13.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber14.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber15.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sri Laxmi Narasimha Swami</h5>
+                        <p class="card-location">H.NO.17-38/1, Kamala Nagar Colony, Medipally, Hyderabad, Telangana 500039</p>
+<!--                         <p class="card-contact">Contact no: 095427 86294</p>
+ -->                        <h6 >Status<button class="btn btn-success btn-sm ml-3">Available</button></h6>
+                        
+                        <p class="card-price">₹399 onwards</p>
+                        <a href="https://rzp.io/l/hxXaHSK" class="card-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/hyderabad_image/plumber/plumber16.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber17.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/hyderabad_image/plumber/plumber18.jpg" class="d-block w-100" alt="Plumber image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Jangaiah Goud Civil Worker</h5>
+                        <p class="card-location">Plot NO 9 NP, Durga Nagar, Bairmalguda, Hyderabad, Telangana 500074</p>
+<!--                         <p class="card-contact">Contact no: 096400 63796</p>
+ -->                        <h6 >Status<button class="btn btn-success btn-sm ml-3">Available</button></h6>                        
+                        <p class="card-price">₹459 onwards</p>
+                        <a href="https://rzp.io/l/hxXaHSK" class="card-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+</body>
+</html>
